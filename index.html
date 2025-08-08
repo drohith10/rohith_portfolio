@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohith Daram — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">Rohith Daram</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="btn" href="assets/Rohith_Resume.pdf" download>Download Resume</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="toggle navigation">☰</button>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-image" style="background-image: url('assets/1.jpeg')"></div>
+      <div class="hero-content">
+        <h1 class="reveal">Hi, I'm <span class="accent">Rohith Daram</span></h1>
+        <p class="lead reveal">Aspiring Data Analyst & Web Developer — building data-driven and full-stack solutions. Experienced in AI, computer vision, and web technologies.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="#projects">See my work</a>
+          <a class="btn ghost" href="mailto:rohithdaram10@gmail.com">Contact Me</a>
+        </div>
+        <div class="social reveal">
+          <a href="https://linkedin.com/in/rohith-daram" target="_blank">LinkedIn</a> · 
+          <a href="https://github.com/drohith10" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Aspiring Data Analyst and Web Developer with strong foundational skills in Python, SQL, web development, and machine learning. Experienced in real-world projects involving AI, computer vision, and full-stack development. Passionate about building impactful, data-driven solutions and continuously learning new technologies.</p>
+            <ul class="contact-list">
+              <li>Email: <a href="mailto:rohithdaram10@gmail.com">rohithdaram10@gmail.com</a></li>
+              <li>Phone: +91-6303063205</li>
+              <li>Location: Hyderabad, India</li>
+            </ul>
+          </div>
+          <div class="about-images">
+            <img src="assets/2.jpeg" alt="Rohith photo 2">
+            <img src="assets/3.jpeg" alt="Rohith photo 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Deepfake Video Detection Web-App</h3>
+            <p><strong>Tech:</strong> Python, ResNeXt, LSTM, Flask, React.js</p>
+            <p>Built a deep learning model and a full-stack web app for real-time deepfake detection. Integrated upload UI and deployed via GitHub Actions.</p>
+            <p><a href="https://github.com/drohith10/Deep-Fake-Video-Detection" target="_blank">GitHub</a></p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Gun Detection – AI-Based Weapon Detection System</h3>
+            <p><strong>Tech:</strong> Python, YOLOv5, OpenCV</p>
+            <p>Real-time object detection system to identify guns, fine-tuned on a custom dataset. Achieved >90% detection accuracy in tests.</p>
+            <p><a href="https://github.com/drohith10/Gun-Detection" target="_blank">GitHub</a></p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Eye Mouse – Eye-Controlled Cursor System</h3>
+            <p><strong>Tech:</strong> Python, Dlib, OpenCV</p>
+            <p>HCI system allowing cursor control through eye movement with facial landmark tracking and simulated mouse events.</p>
+          </article>
+
+          <article class="card reveal">
+            <h3>NFC Business Card Writer</h3>
+            <p><strong>Tech:</strong> React Native, JavaScript, NFC Tools</p>
+            <p>Offline NFC writer app for Android to store and share contact info via tap-to-share functionality.</p>
+            <p><a href="https://github.com/drohith10/tap-connect-share-card" target="_blank">GitHub</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+          <div class="skill"><h4>Languages</h4><p>Python, Java, C, SQL</p></div>
+          <div class="skill"><h4>Web</h4><p>HTML, CSS, JavaScript, React.js, Node.js, Tailwind CSS</p></div>
+          <div class="skill"><h4>Databases</h4><p>SQL, MongoDB</p></div>
+          <div class="skill"><h4>Tools</h4><p>Flask, Git, GitHub, Postman, VS Code</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Interested in collaborating? Send me a message:</p>
+        <form class="contact-form" action="mailto:rohithdaram10@gmail.com" method="post" enctype="text/plain">
+          <input name="name" placeholder="Your name" required>
+          <input name="email" placeholder="Your email" required>
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          <button class="btn" type="submit">Send</button>
+        </form>
+        <p class="muted">Or email directly: <a href="mailto:rohithdaram10@gmail.com">rohithdaram10@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Rohith Daram — Built with ❤️ · <a href="https://github.com/drohith10">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
